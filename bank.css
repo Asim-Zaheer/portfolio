@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+
+}
+
+#h{
+    background-color: rgb(151, 185, 230);
+    padding: 6px;
+    margin: 0px;
+}
+
+#footer{
+    background-color:azure;
+    color: black;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: oblique; */
+}
+
+#ide{
+
+    background-color: aliceblue;
+    
+    margin: 10px;
+    /* padding: -2px; */
+    border-radius: 10%;
+    border-color: cyan; 
+    border-style:groove;
+  transition: transform .2s; /* Animation */
+  width: 10%;
+  height: 10%;
+  
+    
+}
+
+#fb{
+padding: 15px;
+}
+a{
+    color: aliceblue;
+    background-color: transparent;
+}
+
+#ide:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    
+    width: 100%;
+    height: 100%;
+    background-attachment: scroll;
+    background-blend-mode:exclusion ;
+}
+.banner-text{
+    position: absolute;
+    top: 15%;
+    padding: 10%;
+    color: aliceblue;
+    font-size: 22px;
+
+}
+.banner-text:a{
+        color: black;
+}
+.banner-text h3{
+    font-size: 32px;
+    /* text-transform: uppercase; */
+    font-style: oblique;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* .navbar{
+  background-color: black;
+} */
+
+/* .navbar a{
+  color: white;
+} */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    /* background: #3B5998; */
+    color: rgb(20, 20, 20);
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    /* background: #55ACEE; */
+    color: rgb(20, 20, 20);
+  }
+  .fa-linkedin {
+    /* background: #55ACEE; */
+    color: rgb(20, 20, 20);
+  }
+  #ceo{
+    padding: 0.5px;
+  }
+
+  .wrapper{
+    padding-top: 10px;
+  }
+  #arrow{
+    height: 10px;
+  }
